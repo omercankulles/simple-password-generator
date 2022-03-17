@@ -8,7 +8,7 @@ function App() {
 
   const [password, setPassword] = useState('');
 
-  const handleSliderChange = (e) => {
+  const handleSliderChange = (es) => {
     
     setPasswordLength(e.target.value);
 
